@@ -1,17 +1,14 @@
 # Paleologs
 
 
-####################################
 ########   Description    ##########
-####################################
+
 
 
 This script will sort CDS files into paleologs and non-paleologs and then test if they are significantly enriched in a list of genes provided by the user using a Fisher's Exact Test.
 
 
-########################################
 ########    Software Needed   ##########
-########################################
 
 Python3
 CoGe SynMap.pl - https://genomevolution.org/CoGe/SynMap.pl
@@ -19,9 +16,8 @@ DupPipe - https://doi.org/10.1073/pnas.1710791115
 EMMIX, or another mixture model fitting program to call WGD peaks from KS plots and the DupPipe output file.
 
 
-###############################################
 ########    Input File Names Needed    ########
-###############################################
+
 
 
 CDS File - The queery transcriptome of interest in the form of a CDS file
@@ -35,9 +31,8 @@ A list of Ks peaks you are interested - "Your.CDS.File.Name".Peak.csv
 DupPipe Output File - Will have the same title as your CDS file
 
 
-###########################################################################
 ##########   Files can be deposited into the apropriate folders  ##########
-###########################################################################
+
 
 /CDS.Files - Input all CDS files you are interested in running. Note that the gene names must match those in your synteny, DupPipe output, and candidate gene list files.
 
@@ -52,9 +47,7 @@ DupPipe Output File - Will have the same title as your CDS file
 
 
 
-##########################################
 #######     Executing The program ########
-##########################################
 
 1. Make a txt file with the names of all the CD files you are interested in.
 
